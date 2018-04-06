@@ -1,8 +1,8 @@
 import { Printer } from './Printer';
 export declare class CodePrinter {
-    depth: number;
-    printer: Printer;
-    indentation: string;
+    private depth;
+    private printer;
+    private indentation;
     constructor(depth: number, printer: Printer);
     indent(): this;
     dedent(): this;
