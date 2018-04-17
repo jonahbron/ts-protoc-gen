@@ -7,4 +7,5 @@ export declare class CodePrinter {
     indent(): this;
     dedent(): this;
     printLn(line: string): this;
+    printEmptyLn(): this;
 }
